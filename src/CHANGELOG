@@ -1,0 +1,46 @@
+ 	School: Iowa State
+	Year: Summer after Sophmore year 
+	Class Project is Derived From: Com S 327
+	Teacher / Credit For Outline: Jeremy Sheaffer
+
+	05/19/2019
+	* Worked on basic structure of game and objects
+	* Fixed Project Structure
+	
+	05/20/2019
+	* Started main game loop in core
+	* Can now move pc (temp)
+	* Updated visuals (temp)
+	
+	05/21/2019
+	* Began making combat for P v E
+	* Made welcome page and win/loss page
+	* Organized project structure.
+	
+	05/22/2019
+	* Made inGameAttack and inAttackRange use Entity objects so they can be used for both
+	pc and monster attacks.
+	* Implemented basic monster logic and movement (temp)
+	* Added methods to GeneralUtility
+	* Started planning intelligent monster movement
+	* fixed Core
+	
+	05/23/2019
+	* Finished basic monster movement, adding vision range soon.
+	* Split methods into better package format
+	* Added stairs and a new win condition (reaching top floor or basement)
+	* Added play again loop
+	* Added floor and kill counter
+	
+	05/31/2019
+	* Wrapped up goals with MUD game.
+	* Every idea past this point seems to be too specific from a practical perspective.
+	
+	06/13/2019
+	* Old habits die hard
+	* Added Items and player inventory
+	* Right now items are linked to base monster values but that might be changed if I'm not too lazy
+	
+	06/13/2019
+	* Disconnected item names and values from monsters.
+	* gave three main items 3 different levels that have increasing effectiveness.
